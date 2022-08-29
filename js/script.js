@@ -14,3 +14,9 @@ async function populate() {
         document.getElementById('description-text').appendChild(tag);
     });
 }
+
+let button = document.querySelector('#contact-button');
+
+button.addEventListener('click', () => {
+    document.location.href = 'mailto:kenya.chan+SiteContact@gmail.com';
+});
