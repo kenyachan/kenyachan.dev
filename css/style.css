@@ -90,19 +90,16 @@ main {
   color: #1DA1F2;
 }
 
-.button-box {
-  display: flex;
-}
-
 .button {
-  background-clip: border-box;
+  /* background-clip: border-box; */
+  border: 0;
   background-color: #0071e3;
   border-radius: 980px;
-  padding: 8px 16px;
+  padding: 8px 24px;
   font-weight: normal;
   color: white;
   cursor: pointer;
-  text-decoration: none;
+  /* text-decoration: none; */
   /* transition: background-color .3s ease-in-out 300ms; */
   transition: all 0.3s;
   transition-delay: 300ms;
