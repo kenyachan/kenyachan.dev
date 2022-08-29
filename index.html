@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/noscript.css">
+    <!-- <link rel="stylesheet" href="css/noscript.css"> -->
+    <script src="https://kit.fontawesome.com/cf1084cb4e.js" crossorigin="anonymous"></script>
     <script src="js/script.js" defer></script>
     <title>Kenya Chan</title>
 </head>
 <body>
     <header>
-
+        <p class="page-title">Kenya Chan</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Skills</a>
+            <a href="#">Projects</a>
+        </nav>
     </header>
     <main>
-        <figure id="bio-picture">
+        <section id="bio-container">
             <img 
             class="picture-image"
             src="img/Kenya-320x320.jpg" 
@@ -26,55 +32,51 @@
                 img/Kenya-1280x1280.jpg 4x
             "
             alt="Portrait of Kenya"
-            width="320"
-            height="320"
-            />    
-        </figure>
-        <article class="bio">
-            <header id="bio-header">
+            width="320px"
+            height="320px"
+            />
+            <article class="bio">
                 <h1>Kenya Chan</h1>
-                <h2 id="position-text"></h2>
-            </header>
-            <div class="description" id="description-text">
-            </div>
-            <ul class="socials-list">
-                <li>
-                    <a 
-                    class="social-link"
+                <p id="position-text"></p>
+                <div id="description-text"></div>
+                <button id="contact-button" class="button">Contact me</button>
+            </article>
+        </section>
+        <ul class="socials-list">
+            <li>
+                <a class="social-link" 
                     href="https://github.com/kenyachan" 
                     target="_blank" 
-                    rel="noopener"
-                    >
-                    <i class="fab fa-github"></i>
+                    rel="noopener">
+                        <i class="fa-brands fa-github"></i>
                 </a>
-                </li>
-                <li>
-                    <a 
-                    class="social-link"
+            </li>
+            <li>
+                <a class="social-link"
                     href="https://www.linkedin.com/in/kenyachan" 
                     target="_blank" 
-                    rel="noopener"
-                    >
-                    <i class="fab fa-linkedin"></i>
+                    rel="noopener">
+                        <i class="fa-brands fa-linkedin"></i>
                 </a>
-                </li>
-                <li>
-                    <a 
-                    class="social-link"
+            </li>
+            <li>
+                <a class="social-link"
                     href="https://twitter.com/Kenya_Chan" 
                     target="_blank" 
-                    rel="noopener"
-                    >
-                    <i class="fab fa-twitter"></i>
+                    rel="noopener">
+                        <i class="fa-brands fa-twitter"></i>
                 </a>
-                </li>
-            </ul>
-            <button id="contact-button" class="button">Contact me</button>
-        </article>
+            </li>
+            <li>
+                <a class="social-link"
+                    href="https://discordapp.com/users/1012327180346335272" 
+                    target="_blank" 
+                    rel="noopener">
+                        <i class="fa-brands fa-discord"></i>
+                </a>
+            </li>
+        </ul>
     </main>
-    <footer>
-
-    </footer>
 </body>
 
 </html>

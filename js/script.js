@@ -1,3 +1,5 @@
+populateBio();
+
 async function populateBio() {
     const request = new Request("../profile.json");
     const profile = await (await fetch(request)).json();
@@ -21,4 +23,3 @@ button.addEventListener('click', () => {
     document.location.href = 'mailto:kenya.chan+SiteContact@gmail.com';
 });
 
-populateBio();
