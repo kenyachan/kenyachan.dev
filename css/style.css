@@ -103,6 +103,7 @@ main {
   /* transition: background-color .3s ease-in-out 300ms; */
   transition: all 0.3s;
   transition-delay: 300ms;
+  width: fit-content;
 }
 
 .button:hover {
@@ -147,9 +148,5 @@ transition: none;
     justify-content: center;
     margin-left: 0rem;
     margin-bottom: 1rem;
-  }
-
-  .button-box {
-    justify-content: center;
   }
 }
