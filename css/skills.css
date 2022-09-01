@@ -1,0 +1,67 @@
+/* janky work around for now
+    need to create a style sheet common to all pages and one specific to each page
+*/
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-card-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80vw;
+}
+
+.icon-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px lightgrey;
+    padding: 20px;
+    margin: 10px;
+}
+
+.icon {
+    max-width: 8rem;
+    max-height: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* .icon-card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    } */
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+    section {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
