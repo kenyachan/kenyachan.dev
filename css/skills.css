@@ -25,7 +25,6 @@ section h1 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 75vw;
 }
 
 .icon-card {
@@ -50,7 +49,9 @@ section h1 {
 }
 
 @media only screen and (min-width: 600px) {
-    
+    .icon-card-container {
+        max-width: 75vw;
+    }
 }
 
 @media only screen and (min-width: 768px) {
