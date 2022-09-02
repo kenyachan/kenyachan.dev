@@ -1,12 +1,13 @@
 /* janky work around for now
     need to create a style sheet common to all pages and one specific to each page
 */
+
 main {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
   }
 
 section {
@@ -15,13 +16,16 @@ section {
     align-items: center;
 }
 
+section h1 {
+    margin: 0 0 3rem 0; 
+}
+
 .icon-card-container {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 80vw;
+    max-width: 75vw;
 }
 
 .icon-card {
@@ -46,10 +50,7 @@ section {
 }
 
 @media only screen and (min-width: 600px) {
-    /* .icon-card-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-    } */
+    
 }
 
 @media only screen and (min-width: 768px) {
