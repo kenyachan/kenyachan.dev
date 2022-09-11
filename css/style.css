@@ -73,6 +73,12 @@ main {
   max-width: 516px;
 }
 
+#bio-name {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
 #position-text {
   font-size: 1.2rem;
   font-weight: 300;
