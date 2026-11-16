@@ -55,7 +55,7 @@ body {
 
 img { max-width: 100%; height: auto; display: block; }
 ul, ol { margin: 0; padding: 0; list-style: none; }
-h1, h2, h3 { line-height: 1.15; margin: 0; font-weight: 600; letter-spacing: -0.01em; }
+h1, h2, h3, h4 { line-height: 1.15; margin: 0; font-weight: 600; letter-spacing: -0.01em; }
 p { margin: 0; }
 
 a { color: var(--accent); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
@@ -219,7 +219,12 @@ a:hover { text-decoration-thickness: 2px; }
 .project { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(1.25rem, 4vw, 2.75rem); align-items: start; }
 .shot { display: block; border: 1px solid var(--line); border-radius: var(--radius-ui); overflow: hidden; background: var(--surface); }
 .shot img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; }
-.project h3 { font-size: var(--step-1); }
+.project h4 { font-size: var(--step-1); }
+.project-group {
+  font-family: var(--font-cond); font-size: var(--step-0); font-weight: 600; color: var(--accent);
+  margin: 0 0 1.5rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--line);
+}
+.projects + .project-group { margin-top: 3.5rem; }
 .project-body > p { margin-top: 0.75rem; }
 .learned { color: var(--muted); font-size: var(--step--1); }
 .learned strong { color: var(--ink); font-weight: 600; }

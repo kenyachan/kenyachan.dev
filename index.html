@@ -153,16 +153,56 @@
     <section class="section wrap" id="projects" aria-labelledby="projects-title">
       <div class="section-head">
         <h2 id="projects-title">Projects</h2>
-        <p>Built during The Odin Project, a full-stack curriculum I've followed since 2022. Each one has a live demo and its code on GitHub.</p>
+        <p>Tools I built for myself, and projects from The Odin Project, a full-stack curriculum I've followed since 2022. Each one has a live demo and its code on GitHub.</p>
       </div>
 
+      <h3 class="project-group">My own projects</h3>
+      <ul class="projects">
+        <li class="project">
+          <a class="shot" href="https://git-quest.kenyachan.dev/" tabindex="-1" aria-hidden="true">
+            <img src="img/projects/git-quest.webp" width="1280" height="800" loading="lazy" alt="">
+          </a>
+          <div class="project-body">
+            <h4>Git Quest</h4>
+            <p>A Git refresher made into a game. You work through 9 levels of commands in your own terminal, from setting up Git to fixing a merge conflict and rewriting history, ticking off each step to earn XP and unlock the next level. Progress is saved in the browser.</p>
+            <p class="learned"><strong>What I practised:</strong> keeping the content (levels, commands and hints) separate from the code that draws it, and saving progress with localStorage.</p>
+            <ul class="tags" aria-label="Built with">
+              <li>JavaScript</li><li>localStorage</li><li>Vite</li><li>CSS</li>
+            </ul>
+            <p class="project-links">
+              <a href="https://git-quest.kenyachan.dev/">Start the quest</a>
+              <a href="https://github.com/kenyachan/git-quest">View code</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <a class="shot" href="https://clock.kenyachan.dev/" tabindex="-1" aria-hidden="true">
+            <img src="img/projects/weather-clock.webp" width="1280" height="800" loading="lazy" alt="">
+          </a>
+          <div class="project-body">
+            <h4>Weather clock</h4>
+            <p>A large clock I keep on a spare screen so I can see the time at a glance. It also shows the date and the current weather for my city, and goes full screen with one key.</p>
+            <p class="learned"><strong>What I practised:</strong> fetching live data from a weather API with async/await, and keeping the display up to date on a timer.</p>
+            <ul class="tags" aria-label="Built with">
+              <li>JavaScript</li><li>WeatherAPI</li><li>Webpack</li><li>CSS</li>
+            </ul>
+            <p class="project-links">
+              <a href="https://clock.kenyachan.dev/">See the clock</a>
+              <a href="https://github.com/kenyachan/Full-Screen-Clock">View code</a>
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="project-group">From The Odin Project</h3>
       <ul class="projects">
         <li class="project">
           <a class="shot" href="https://kenyachan.github.io/tic-tac-toe/" tabindex="-1" aria-hidden="true">
             <img src="img/projects/tic-tac-toe.webp" width="1280" height="800" loading="lazy" alt="">
           </a>
           <div class="project-body">
-            <h3>Tic Tac Toe</h3>
+            <h4>Tic Tac Toe</h4>
             <p>A two-player game where players enter their names and the game announces the winner or a draw. The game logic is split into board, player and game modules, kept separate from the code that updates the page.</p>
             <p class="learned"><strong>What I practised:</strong> unit testing the game logic with Jest, and organising code into modules.</p>
             <ul class="tags" aria-label="Built with">
@@ -180,7 +220,7 @@
             <img src="img/projects/library.webp" width="1280" height="800" loading="lazy" alt="">
           </a>
           <div class="project-body">
-            <h3>Library</h3>
+            <h4>Library</h4>
             <p>A reading list where you add books through a form, mark them read or unread, and remove them. Your list is saved in the browser, so it's still there when you come back.</p>
             <p class="learned"><strong>What I practised:</strong> JavaScript classes, saving data with localStorage, and handling a form in a modal dialog.</p>
             <ul class="tags" aria-label="Built with">
@@ -198,7 +238,7 @@
             <img src="img/projects/restaurant-page.webp" width="1280" height="800" loading="lazy" alt="">
           </a>
           <div class="project-body">
-            <h3>Restaurant page</h3>
+            <h4>Restaurant page</h4>
             <p>A restaurant website with home, menu and contact tabs. The HTML file is almost empty: every element on the page is created and switched with JavaScript.</p>
             <p class="learned"><strong>What I practised:</strong> building pages through the DOM, and bundling modules, images and fonts with Webpack.</p>
             <ul class="tags" aria-label="Built with">
